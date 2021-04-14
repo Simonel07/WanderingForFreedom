@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Conferring with an Old Master - Chiptune8-bit - Royalty Free Music.wav-6c14aa1b85e356b95069ef19a1b0e447.sample"
+
+[deps]
+
+source_file="res://Sounds/Conferring with an Old Master - Chiptune8-bit - Royalty Free Music.wav"
+dest_files=[ "res://.import/Conferring with an Old Master - Chiptune8-bit - Royalty Free Music.wav-6c14aa1b85e356b95069ef19a1b0e447.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0

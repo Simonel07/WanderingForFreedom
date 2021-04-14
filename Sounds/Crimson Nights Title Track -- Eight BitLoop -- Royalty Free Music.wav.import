@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Crimson Nights Title Track -- Eight BitLoop -- Royalty Free Music.wav-f4aa6fe58f18918f67e365174122c43c.sample"
+
+[deps]
+
+source_file="res://Sounds/Crimson Nights Title Track -- Eight BitLoop -- Royalty Free Music.wav"
+dest_files=[ "res://.import/Crimson Nights Title Track -- Eight BitLoop -- Royalty Free Music.wav-f4aa6fe58f18918f67e365174122c43c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0

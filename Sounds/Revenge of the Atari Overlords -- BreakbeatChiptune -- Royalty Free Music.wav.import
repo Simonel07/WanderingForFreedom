@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Revenge of the Atari Overlords -- BreakbeatChiptune -- Royalty Free Music.wav-5f6df04f0e0006485c40b93f4be09b20.sample"
+
+[deps]
+
+source_file="res://Sounds/Revenge of the Atari Overlords -- BreakbeatChiptune -- Royalty Free Music.wav"
+dest_files=[ "res://.import/Revenge of the Atari Overlords -- BreakbeatChiptune -- Royalty Free Music.wav-5f6df04f0e0006485c40b93f4be09b20.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0

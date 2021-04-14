@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/mixkit-driving-ambition-32.wav-e3c8c20048da41470b1592e33b48b4ea.sample"
+
+[deps]
+
+source_file="res://Sounds/mixkit-driving-ambition-32.wav"
+dest_files=[ "res://.import/mixkit-driving-ambition-32.wav-e3c8c20048da41470b1592e33b48b4ea.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

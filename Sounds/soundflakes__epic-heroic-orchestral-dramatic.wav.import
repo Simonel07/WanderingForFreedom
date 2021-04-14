@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/soundflakes__epic-heroic-orchestral-dramatic.wav-9f1bea72c770179e393c7a99226e58c0.sample"
+
+[deps]
+
+source_file="res://Sounds/soundflakes__epic-heroic-orchestral-dramatic.wav"
+dest_files=[ "res://.import/soundflakes__epic-heroic-orchestral-dramatic.wav-9f1bea72c770179e393c7a99226e58c0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

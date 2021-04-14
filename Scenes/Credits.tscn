@@ -1,0 +1,159 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Fonts/Cormorant-Light.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Sprites/TitleScreen/background.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/Credits.gd" type="Script" id=3]
+[ext_resource path="res://Sounds/mixkit-driving-ambition-32.wav" type="AudioStream" id=4]
+[ext_resource path="res://Sounds/soundflakes__epic-heroic-orchestral-dramatic.wav" type="AudioStream" id=5]
+[ext_resource path="res://Sounds/tyops__dramatic-increasing.wav" type="AudioStream" id=6]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Scroll"
+length = 71.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Label:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( -0.1, 71, 285.8 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 180 ), Vector2( 0, -1060 ), Vector2( 0, -850 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "type"
+length = 215.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Label2:percent_visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 171.8 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 1.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Label2:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 94.2, 215 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( 0, 0 ), Vector2( 0, -331 ) ]
+}
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 8
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 1 )
+
+[node name="Credits" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "type"
+anims/Scroll = SubResource( 1 )
+anims/type = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 159.681, 90.191 )
+scale = Vector2( 0.167, 0.167 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_top = -1060.0
+margin_right = 320.0
+margin_bottom = 17.9949
+custom_fonts/font = SubResource( 3 )
+text = "Joc realizat de:
+Blaze Gaming Studio
+
+Fondator Blaze Gaming Studio
+David Simonel-Olimpiu
+
+Programatori:
+Haranguș Robert-Adrian
+David Simonel-Olimpiu
+
+Design preluat de la
+itch.ro
+craftpix.net
+
+Design realizat de
+David Simonel-Olimpiu
+Haranguș Robert-Adrian
+
+Efecte Sonore preluate de la 
+mixkit.co
+freesound.org
+
+Surse informaționale
+\"Despre Libertate\" de J.S.Mill
+
+Level design realizat de
+David Simonel-Olimpiu
+
+
+Game Engine
+Godot
+
+
+
+
+
+
+Alege să muncești până la sfârșit pentru o eternitate lipsită de incertitudine!
+
+
+
+
+
+
+Blaze Gaming Studio 2021"
+align = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_top = -330.0
+margin_right = 318.0
+margin_bottom = 2.99997
+custom_fonts/font = SubResource( 4 )
+text = "Din păcate ai ajuns singura stăpânie dintre toate care nu a reușit să își îndeplinească destinul. Aceasta s-a întâmplat deoarece chiar dacă tu ai fost bun intenționat și ai dorit să respecți misiunea, lumea aceasta și oamenii nu pot fi stăpâniți. Creatorul i-a făcut dintre toate ființele existene pe ei singurii care pot alege ce își doresc, iar din câte am putut observa în cartea lui J.S.Mill, ei consideră absent pe acesta și își creează păreri, care indiferent dacă sunt spuse de cei morți care s-au întors printre ei sau de cei ca tine(și anume o ființă a diviniății), ei tot nu ar crede. Omul își alege singur credința, astfel el nu poate fi condus de oricine, oricum și în orice moment. El are libertatea de a alege să moară sau să trăiască pentru opiniile și ideile lui. Așa după cum am putut observa, faptul că ei sunt diferiți prin idei și acțiuni le conferă lor fericirea. De ce? Ei bine, ei au fost creați să fie liberi și deci scopul original provocă fericirea posterioară. Tu, indiferent cine ai fi, nu ai puterea de a fi stăpânul lor, pentru că ei nu fac parte din ființele care ascultă ce zice Creatorul, tu ai înscris din origine scopul de a asculta. Astfel tu nu poți decât să îți duci la capăt destinul, pe când destinul lor este de a fi liberi, astfel ei îl îndeplinesc indiferent de situație.
+Pentru că misiunea ta și destinul tău nu au fost duse la bun sfârșit, ai reușit să distrugi ceea ce Creatorul a decis, dar aceasta nu te face mai puternic, deoarece oricine nu respectă ce zice El va fi lispit de bine, întrucât El este cel bun, el nu este rău, iar orice este în afara voinței Lui este rău. Astfel ai devenit om din ceea ce mai înainte erai stăpânie, ai ajuns să trăiești o formă denigrată a lor, nici măcar să trăiești viața umană nu ai putut, dar nici să alegi ce faci după moarte. Astfel ai fost restaurat în varianta de vrăjitor fantomă și vei rămâne așa pentru totdeauna.
+Oamenii ți-au făcut aceasta prin libertatea lor, iar cale de întoarcere nu este, astfel nu ai vreun motiv să alegi binele oamenilor ci doar să păzești lumea de oricine încearcă să fie stăpânul ei. De acum ai paginile pierdute din cartea lui John Stuart Mill \"Despre Libertate\".
+Toate au un sfârșit, dar niciodată nu se știe când e sau dacă pentru forma ta de existență, vei mai avea parte vreodată de sfârșit."
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -10.0
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -10.0
+
+[node name="AudioStreamPlayer3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="finished" from="AudioStreamPlayer" to="." method="_on_AudioStreamPlayer_finished"]
+[connection signal="finished" from="AudioStreamPlayer2" to="." method="_on_AudioStreamPlayer2_finished"]

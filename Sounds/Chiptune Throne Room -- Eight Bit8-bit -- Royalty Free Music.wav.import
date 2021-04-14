@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Chiptune Throne Room -- Eight Bit8-bit -- Royalty Free Music.wav-5652bcef37693d5f6febeb023e4e86b8.sample"
+
+[deps]
+
+source_file="res://Sounds/Chiptune Throne Room -- Eight Bit8-bit -- Royalty Free Music.wav"
+dest_files=[ "res://.import/Chiptune Throne Room -- Eight Bit8-bit -- Royalty Free Music.wav-5652bcef37693d5f6febeb023e4e86b8.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0
